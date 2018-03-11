@@ -1,34 +1,3 @@
-/*body {*/
-  /*width: 100%;*/
-/*}*/
-
-/*#main-menu {*/
-  /*background-color: darkslateblue;*/
-  /*color: white;*/
-/*}*/
-
-/*#main-menu ul {*/
-  /*list-style: none;*/
-/*}*/
-
-/*#main-actions {*/
-  /*display: table;*/
-/*}*/
-
-/*#main-actions div {*/
-  /*display: table-cell;*/
-  /*vertical-align: middle;*/
-/*}*/
-
-/*#main-menu li {*/
-  /*display: inline;*/
-/*}*/
-
-/*#technomart-label {*/
-  /*background-color: red;*/
-/*}*/
-
-/*#make-order {*/
-  /*background-color: lightgreen;*/
-  /*color: white;*/
-/*}*/
+.visually-hidden {
+  display: none;
+}
