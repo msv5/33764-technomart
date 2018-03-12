@@ -14,7 +14,7 @@
 <body>
 <header>
   <div class="main-actions">
-    <a id="technomart-label" href="stub">Техномарт</a>
+    <a id="technomart-label">Техномарт</a>
     <div id="search">Поиск</div>
     <div id="bookmarks">Закладки: 0</div>
     <div id="recycle-bin">Корзина</div>
@@ -29,108 +29,116 @@
   </section>
 
   <div class="user-actions">
-    <div>Войти</div>
-    <div>Регистрация</div>
+    <button>Войти</button>
+    <a>Регистрация</a>
   </div>
 
   <nav class="main-menu">
     <ul>
-      <li id="main">Главная</li>
-      <li id="company">Компания</li>
-      <li id="catalog">Каталог</li>
-      <li id="news">Новости</li>
-      <li id="special">Спецпредложения</li>
-      <li id="delivery">Доставка</li>
-      <li id="contacts">Контакты</li>
+      <li id="main"><a>Главная</a></li>
+      <li id="company"><a>Компания</a></li>
+      <li id="catalog"><a>Каталог</a></li>
+      <li id="news"><a>Новости</a></li>
+      <li id="special"><a>Спецпредложения</a></li>
+      <li id="delivery"><a>Доставка</a></li>
+      <li id="contacts"><a>Контакты</a></li>
     </ul>
   </nav>
-
 
 </header>
 
 <main>
-  <div class="promotion">
+  <section class="promotion">
+    <h2 class="visually-hidden">Акции</h2>
     <div>
-      <label>Материалы</label>
-      <span>на любой вкус</span>
+      <span>Материалы</span>
+      <a>на любой вкус</a>
     </div>
     <div>
-      <label>Инструмент</label>
+      <span>Инструмент</span>
       <span>на все случаи</span>
     </div>
     <div>
-      <label>Техника</label>
+      <span>Техника</span>
       <span>для стройки</span>
     </div>
     <div>
-      <label>Скидки 50%</label>
+      <span>Скидки 50%</span>
       <span>на 350 товаров</span>
     </div>
     <div>
-      <label>Доставка</label>
+      <span>Доставка</span>
       <span>бесплатно</span>
     </div>
     <div>
-      <label>Дрели</label>
+      <span>Дрели</span>
       <span>Соседям на радость!</span>
       <button>Открыть каталог</button>
     </div>
-  </div>
-
-  <span>Популярные товары<span>Все популярные товары</span></span>
-
-  <div class="popular-items">
-    <div>
-      <label>Перфоратор BOSCH BFG 9000</label>
-      <div>32500 р.</div>
-      <div>25500 р.</div>
-    </div>
-    <div>
-      <label>Перфоратор BOSCH BFG 3000</label>
-      <div>22500 р.</div>
-      <div>15500 р.</div>
-    </div>
-    <div>
-      <label>Перфоратор BOSCH BFG 6000</label>
-      <div>30500 р.</div>
-      <div>25500 р.</div>
-    </div>
-    <div>
-      <label>Перфоратор BOSCH BFG 2000</label>
-      <div>12500 р.</div>
-    </div>
-  </div>
-
-  <span>Популярные производители<span>Все производители</span></span>
-
-  <div class="popular-manufacturers">
-
-  </div>
+  </section>
 
   <section>
-    <h1>Сервисы</h1>
+    <h2>Популярные товары<span>Все популярные товары</span></h2>
+    <div class="popular-items">
+      <article>
+        <h3>Перфоратор BOSCH BFG 9000</h3>
+        <div>32500 р.</div>
+        <div>25500 р.</div>
+      </article>
+      <article>
+        <h3>Перфоратор BOSCH BFG 3000</h3>
+        <div>22500 р.</div>
+        <div>15500 р.</div>
+      </article>
+      <article>
+        <h3>Перфоратор BOSCH BFG 6000</h3>
+        <div>30500 р.</div>
+        <div>25500 р.</div>
+      </article>
+      <article>
+        <h3>Перфоратор BOSCH BFG 2000</h3>
+        <div>12500 р.</div>
+      </article>
+    </div>
+  </section>
+
+  <section>
+    <h2>Популярные производители<span>Все производители</span></h2>
+    <div class="popular-manufacturers">
+      <!--<img src="">-->
+      <!--<img src="">-->
+    </div>
+  </section>
+
+  <section>
+    <h2>Сервисы</h2>
     <p>
       Хороший интернет-магазин отличается от плохого не только ценами!
       <br>
       Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.
     </p>
-    <ul>
-      <li>Доставка</li>
-      <li>Гарантия</li>
-      <li>Кредит</li>
-    </ul>
+    <section>
+      <h3 class="visually-hidden">Услуги</h3>
+      <ul>
+        <li><a>Доставка</a></li>
+        <li><a>Гарантия</a></li>
+        <li><a>Кредит</a></li>
+      </ul>
+    </section>
+    <section>
+      <h3>Доставка</h3>
+      <p>
+        Мы с удовольствием доставим ваш товар прямо
+        к вашему подъезду совершенно бесплатно!
+        Ведь мы неплохо работаем, поднимая его на ваш этаж!
+      </p>
+    </section>
 
-    <h1>Доставка</h1>
-    <p>
-      Мы с удовольствием доставим ваш товар прямо
-      к вашему подъезду совершенно бесплатно!
-      Ведь мы неплохо работаем, поднимая его на ваш этаж!
-    </p>
     ***IMAGE***
   </section>
   <section>
     <h2 class="visually-hidden">Услуги</h2>
-    <article>
+    <div>
       <h2>Компания "Техномарт"</h2>
       <p>
         Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и строительства не оставит
@@ -154,56 +162,57 @@
         <div>***MAP***></div>
         <button>Заблудились? Напишите нам!</button>
       </section>
-
-    </article>
+    </div>
   </section>
 </main>
 
 <footer>
-  <a href="stub">Техномарт</a>
+  <a>Техномарт</a>
   <nav>
     <ul>
-      <li>Компания</li>
-      <li>Новости</li>
-      <li>Каталог</li>
-      <li>Доставка</li>
-      <li>Контакты</li>
+      <li><a>Компания</a></li>
+      <li><a>Новости</a></li>
+      <li><a>Каталог</a></li>
+      <li><a>Доставка</a></li>
+      <li><a>Контакты</a></li>
     </ul>
   </nav>
 
   <section class="contacts">
     <h2 class="visually-hidden">Контакты</h2>
     <div>Интернет магазин строительных материалов и инструментов для ремонта</div>
-    <div>+7 (812) 555-05-55</div>
+    <a href="tel:+78125550555">+7 (812) 555-05-55</a>
     <address>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19\8</address>
   </section>
 
   <nav>
     <ul>
-      <li>Материалы</li>
-      <li>Техника</li>
-      <li>Инструмент</li>
-      <li>Спецпредложения</li>
+      <li><a>Материалы</a></li>
+      <li><a>Техника</a></li>
+      <li><a>Инструмент</a></li>
+      <li><a>Спецпредложения</a></li>
     </ul>
   </nav>
   <div>
-    <div>
+    <p>
       &copy; 2010-2017 Компания "Техномарт"<br>Все права защищены
-    </div>
+    </p>
     <div class="social-networks">
       <ul>
-        <li>ok</li>
-        <li>vk</li>
-        <li>fb</li>
+        <li><a>ok</a></li>
+        <li><a>vk</a></li>
+        <li><a>fb</a></li>
       </ul>
     </div>
-    <div>Обратная связь:</div>
-    <div>mail@htmlacademy.ru</div>
+    <p>
+      Обратная связь:
+      <a>mail@htmlacademy.ru</a>
+    </p>
 
-    <div class="about">
-      <div>Разработано -</div>
-      <div>htmlacademy.ru</div>
-    </div>
+    <p class="about">
+      Разработано -
+      <a href="htmlacademy.ru">htmlacademy.ru</a>
+    </p>
   </div>
 </footer>
 </body>
