@@ -62,14 +62,14 @@ header {
 }
 
 .phone {
-  width:30%;
-  color:red;
-  font-size: 14px;
+  border-color: white;
+  color: red;
+  font-size: 21pt;
   float: left;
 }
 
 .address {
-
+font-size: 14pt;
 }
 
 #technomart-label {
@@ -78,18 +78,25 @@ header {
 }
 
 #search {
-  float:left;
+  font-size: 17pt;
+  float: left;
 }
 
 #bookmarks {
+  font-size: 17pt;
   float: right;
 }
 
 #shopping-cart {
+  font-size: 17pt;
   float: right;
 }
 
 #make-order {
+  font-size: 17pt;
   float: right;
 }
 
+#login, #register {
+  background-color: white;
+}
