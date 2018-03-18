@@ -1,3 +1,85 @@
 .visually-hidden {
   display: none;
 }
+
+html, body {
+  width: 1200px;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: Cuprum;
+}
+
+header {
+  background-color: #f4f7f9;
+}
+
+.main-actions {
+  background-color: #293449;
+  color: #ffffff;
+}
+
+.main-menu {
+  background-color: #293449;
+  color: #ffffff;
+}
+
+.red-button {
+  background-color: #ee3643;
+}
+
+.green-button {
+  background-color: #63a63e;
+  color: #ffffff;
+}
+
+.white-button {
+  background-color: #ffffff;
+}
+
+.main-menu li {
+  list-style: none;
+  display: inline;
+}
+
+.description {
+  color: red;
+  font-style: italic;
+  float: left;
+}
+
+.user-actions {
+  float: right;
+}
+
+.phone {
+  color:red;
+  font-size: 14px;
+  float: left;
+}
+
+.address {
+
+}
+
+#technomart-label {
+  float: left;
+  font-size: 24pt;
+}
+
+#search {
+  float:left;
+}
+
+#bookmarks {
+  float: right;
+}
+
+#shopping-cart {
+  float: right;
+}
+
+#make-order {
+  float: right;
+}
+
