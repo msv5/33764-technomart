@@ -54,11 +54,15 @@ header {
   float: left;
 }
 
+.contacts {
+}
+
 .user-actions {
   float: right;
 }
 
 .phone {
+  width:30%;
   color:red;
   font-size: 14px;
   float: left;
