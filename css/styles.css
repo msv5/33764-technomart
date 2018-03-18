@@ -17,11 +17,17 @@ header {
 .main-actions {
   background-color: #293449;
   color: #ffffff;
+  height: 40px;
 }
 
 .main-menu {
   background-color: #293449;
   color: #ffffff;
+  height: 30px;
+}
+
+.main-panel {
+  height: 100px;
 }
 
 .red-button {
