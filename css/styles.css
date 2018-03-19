@@ -16,19 +16,30 @@ header {
 }
 
 #main-actions-wrapper {
+  width: 940px;
+  height: 40px;
   background-color: #293449;
 }
 
 .main-actions {
-  width: 940px;
   color: #ffffff;
   height: 40px;
 }
 
+.main-menu ul {
+  display: flex;
+}
+
+.main-menu li {
+  list-style-type: none;
+  flex-basis: auto;
+  flex-grow: 1;
+}
+
 .main-menu {
+  height: 60px;
   font-size: 17pt;
   width: 940px;
-  height: 60px;
   background-color: #293449;
   color: #ffffff;
 }
@@ -43,17 +54,15 @@ header {
 }
 
 .green-button {
+  text-align: center;
+  width: 150px;
+  height: 40px;
   background-color: #63a63e;
   color: #ffffff;
 }
 
 .white-button {
   background-color: #ffffff;
-}
-
-.main-menu li {
-  list-style: none;
-  display: inline;
 }
 
 .description {
@@ -82,6 +91,7 @@ header {
 }
 
 #technomart-label {
+  margin-left: 130px;
   text-align: center;
   width: 220px;
   float: left;
