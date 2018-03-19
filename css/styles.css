@@ -2,7 +2,7 @@
   display: none;
 }
 
-html, body {
+html, body, header {
   width: 1200px;
   height: 100%;
   padding: 0;
@@ -12,21 +12,29 @@ html, body {
 
 header {
   background-color: #f4f7f9;
+  height: 280px;
+}
+
+#main-actions-wrapper {
+  background-color: #293449;
 }
 
 .main-actions {
-  background-color: #293449;
+  width: 940px;
   color: #ffffff;
   height: 40px;
 }
 
 .main-menu {
+  font-size: 17pt;
+  width: 940px;
+  height: 60px;
   background-color: #293449;
   color: #ffffff;
-  height: 30px;
 }
 
 .main-panel {
+  width: 940px;
   height: 100px;
 }
 
@@ -55,6 +63,7 @@ header {
 }
 
 .contacts {
+  width: 270px;
 }
 
 .user-actions {
@@ -69,10 +78,12 @@ header {
 }
 
 .address {
-font-size: 14pt;
+  font-size: 14pt;
 }
 
 #technomart-label {
+  text-align: center;
+  width: 220px;
   float: left;
   font-size: 24pt;
 }
