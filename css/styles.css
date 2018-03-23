@@ -144,3 +144,23 @@ header {
   font-size: 14px;
   text-align: center;
 }
+
+#item-1 {
+  background-color: #ffbf47;
+}
+
+#item-2 {
+  background-color: #3bbce3;
+}
+
+#item-3 {
+  background-color: #dc91d8;
+}
+
+#item-4 {
+  background-color: #8ed78f;
+}
+
+#item-5 {
+  background-color: #ffc047;
+}
