@@ -15,6 +15,7 @@ header {
 
 #main-actions-wrapper {
   height: 40px;
+  line-height: 40px;
   background-color: #293449;
 }
 
@@ -35,6 +36,7 @@ header {
 
 .main-menu {
   height: 60px;
+  line-height: 60px;
   font-size: 17px;
   width: 940px;
   background-color: #293449;
@@ -46,7 +48,11 @@ header {
   flex-direction: row;
   justify-content: space-around;
   width: 940px;
-  height: 100px;
+  height: 160px;
+}
+
+.main-panel div, .main-panel section  {
+  margin: auto;
 }
 
 .red-button {
@@ -104,6 +110,7 @@ header {
   margin-left: 130px;
   text-align: center;
   width: 220px;
+  height: 100%;
   float: left;
   font-size: 24px;
 }
