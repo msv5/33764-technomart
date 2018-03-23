@@ -174,3 +174,10 @@ header {
   color: white;
   font-size: 24px;
 }
+
+#popular-items-section h2 {
+  width: 100%;
+  background-color: #f9f5f0;
+  height: 90px;
+  line-height: 90px;
+}
