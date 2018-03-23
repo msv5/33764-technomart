@@ -22,6 +22,37 @@ header {
 .main-actions {
   color: #ffffff;
   height: 40px;
+  display: flex;
+  justify-content: space-around;
+}
+
+#technomart-label {
+  margin-left: 130px;
+  text-align: center;
+  width: 220px;
+  height: 100%;
+  float: left;
+  font-size: 24px;
+}
+
+#search {
+  font-size: 17px;
+  margin-right: auto;
+}
+
+#bookmarks {
+  font-size: 17px;
+  margin-left: auto;
+}
+
+#shopping-cart {
+  font-size: 17px;
+  margin-left: auto;
+}
+
+#make-order {
+  font-size: 17px;
+  margin-left: auto;
 }
 
 .main-menu ul {
@@ -112,33 +143,4 @@ header {
 .address {
   font-size: 14px;
   text-align: center;
-}
-
-#technomart-label {
-  margin-left: 130px;
-  text-align: center;
-  width: 220px;
-  height: 100%;
-  float: left;
-  font-size: 24px;
-}
-
-#search {
-  font-size: 17px;
-  float: left;
-}
-
-#bookmarks {
-  font-size: 17px;
-  float: right;
-}
-
-#shopping-cart {
-  font-size: 17px;
-  float: right;
-}
-
-#make-order {
-  font-size: 17px;
-  float: right;
 }
