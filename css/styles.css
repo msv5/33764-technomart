@@ -57,7 +57,7 @@ header {
   height: 60px;
 }
 
-.main-panel-inner div, .main-panel-inner section  {
+.main-panel-inner div, .main-panel-inner section {
   margin: auto;
 }
 
@@ -75,8 +75,8 @@ header {
 
 .white-button {
   background-color: #ffffff;
-  width: 150px;
-  height: 45px;
+  /*width: 150px;*/
+  /*height: 45px;*/
 }
 
 .description {
@@ -91,7 +91,7 @@ header {
 }
 
 .user-actions {
-
+  width: 280px;
 }
 
 .phone {
@@ -105,7 +105,7 @@ header {
 }
 
 .phone img {
-  float:left;
+  float: left;
   line-height: 40px;
 }
 
