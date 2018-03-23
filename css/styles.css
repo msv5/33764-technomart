@@ -83,10 +83,16 @@ header {
 }
 
 .phone {
-  border-color: white;
+  border: 2px solid white;
   color: red;
   font-size: 21px;
   text-align: center;
+  height: 40px;
+  width: 270px;
+}
+
+.phone img {
+  float:left;
 }
 
 .address {
