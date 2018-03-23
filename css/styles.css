@@ -44,14 +44,20 @@ header {
 }
 
 .main-panel {
+  width: 940px;
+  height: 160px;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.main-panel-inner {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  width: 940px;
-  height: 160px;
+  height: 60px;
 }
 
-.main-panel div, .main-panel section  {
+.main-panel-inner div, .main-panel-inner section  {
   margin: auto;
 }
 
@@ -94,11 +100,13 @@ header {
   font-size: 21px;
   text-align: center;
   height: 40px;
+  line-height: 40px;
   width: 270px;
 }
 
 .phone img {
   float:left;
+  line-height: 40px;
 }
 
 .address {
