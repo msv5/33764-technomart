@@ -2,11 +2,9 @@
   display: none;
 }
 
-html, body, header {
-  width: 1200px;
-  height: 100%;
-  padding: 0;
-  margin: 0;
+header, main, footer {
+  width: 940px;
+  margin: 0 auto;
   font-family: Cuprum, serif;
 }
 
@@ -16,7 +14,6 @@ header {
 }
 
 #main-actions-wrapper {
-  width: 940px;
   height: 40px;
   background-color: #293449;
 }
@@ -38,13 +35,16 @@ header {
 
 .main-menu {
   height: 60px;
-  font-size: 17pt;
+  font-size: 17px;
   width: 940px;
   background-color: #293449;
   color: #ffffff;
 }
 
 .main-panel {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
   width: 940px;
   height: 100px;
 }
@@ -63,12 +63,15 @@ header {
 
 .white-button {
   background-color: #ffffff;
+  width: 150px;
+  height: 45px;
 }
 
 .description {
   color: red;
   font-style: italic;
-  float: left;
+  width: 200px;
+
 }
 
 .contacts {
@@ -76,18 +79,19 @@ header {
 }
 
 .user-actions {
-  float: right;
+
 }
 
 .phone {
   border-color: white;
   color: red;
-  font-size: 21pt;
-  float: left;
+  font-size: 21px;
+  text-align: center;
 }
 
 .address {
-  font-size: 14pt;
+  font-size: 14px;
+  text-align: center;
 }
 
 #technomart-label {
@@ -95,29 +99,25 @@ header {
   text-align: center;
   width: 220px;
   float: left;
-  font-size: 24pt;
+  font-size: 24px;
 }
 
 #search {
-  font-size: 17pt;
+  font-size: 17px;
   float: left;
 }
 
 #bookmarks {
-  font-size: 17pt;
+  font-size: 17px;
   float: right;
 }
 
 #shopping-cart {
-  font-size: 17pt;
+  font-size: 17px;
   float: right;
 }
 
 #make-order {
-  font-size: 17pt;
+  font-size: 17px;
   float: right;
-}
-
-#login, #register {
-  background-color: white;
 }
