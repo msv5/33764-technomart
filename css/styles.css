@@ -193,7 +193,7 @@ header {
 }
 
 #popular-items, #popular-manufacturers {
-  text-transform:uppercase;
+  text-transform: uppercase;
   font-size: 30px;
 }
 
@@ -251,9 +251,9 @@ header {
   justify-content: center;
 }
 
-
 #inner-footer {
   background-color: #293449;
+  font-size: 16px;
 }
 
 .social-networks ul {
@@ -266,15 +266,21 @@ header {
   flex-grow: 1;
 }
 
-.feedback {
+.feedback, .about {
   display: flex;
   flex-direction: column;
 }
 
-.feedback span {
+.feedback span, .about span {
   color: #ffd180;
 }
 
-.feedback a {
-color: white;
+.feedback a, .about a {
+  color: white;
+}
+
+.copyright {
+  color: white;
+  display: flex;
+  flex-direction: column;
 }
