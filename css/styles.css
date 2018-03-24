@@ -251,7 +251,22 @@ header {
   justify-content: center;
 }
 
-#inner-footer {
+#first-footer {
+  background-color: #32425c;
+  font-size: 18px;
+  display: flex;
+}
+
+.footer-menu {
+  background-color: #32425c;
+}
+
+.footer-yellow-menu {
+  background-color: #32425c;
+  color: #ffd180;
+}
+
+#second-footer {
   background-color: #293449;
   font-size: 16px;
   display: flex;
