@@ -257,15 +257,18 @@ header {
   background-color: #32425c;
   font-size: 18px;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .footer-menu {
   background-color: #32425c;
+  width: 525px;
 }
 
 .footer-yellow-menu {
   background-color: #32425c;
   color: #ffd180;
+  width: 550px;
 }
 
 #second-footer {
@@ -304,3 +307,5 @@ header {
   display: flex;
   flex-direction: column;
 }
+
+
