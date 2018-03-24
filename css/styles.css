@@ -176,18 +176,24 @@ header {
 }
 
 #popular-items-section .items, #popular-manufacturers-section .manufacturers {
+  display: flex;
+  justify-content: space-between;
   height: 90px;
   line-height: 90px;
   background-color: #f9f5f0;
-  font-size: 30px;
 }
 
 #all-items, #all-manufacturers {
   background-color: #ee3643;
   width: 250px;
-  height: 35px;
+  /*height: 35px;*/
   color: white;
   font-size: 14px;
+}
+
+#popular-items, #popular-manufacturers {
+  text-transform:uppercase;
+  font-size: 30px;
 }
 
 #popular-manufacturers-list {
