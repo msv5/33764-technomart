@@ -26,13 +26,14 @@ header {
   justify-content: space-around;
 }
 
-#technomart-label {
+.technomart-label {
   margin-left: 130px;
   text-align: center;
   width: 220px;
   height: 100%;
   font-size: 24px;
   margin-right: auto;
+  text-transform: uppercase;
 }
 
 #search {
