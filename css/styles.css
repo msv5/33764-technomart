@@ -123,6 +123,11 @@ header {
   width: 270px;
 }
 
+.footer-contacts a, .footer-contacts address {
+  color: white;
+  font-style: normal;
+}
+
 .user-actions {
   width: 280px;
 }
