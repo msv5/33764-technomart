@@ -175,12 +175,13 @@ header {
   font-size: 24px;
 }
 
-#popular-items-section .items, #popular-manufacturers-section .manufacturers {
+.items, .manufacturers {
   display: flex;
   justify-content: space-between;
   height: 90px;
   line-height: 90px;
   background-color: #f9f5f0;
+  margin-bottom: 10px;
 }
 
 #all-items, #all-manufacturers {
