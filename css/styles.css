@@ -175,13 +175,14 @@ header {
   font-size: 24px;
 }
 
-#popular-items-section h2, #popular-manufacturers-section h2 {
-  width: 100%;
+#popular-items-section .items, #popular-manufacturers-section .manufacturers {
+  height: 90px;
+  line-height: 90px;
   background-color: #f9f5f0;
   font-size: 30px;
 }
 
-#all-popular-items, #all-popular-manufacturers {
+#all-items, #all-manufacturers {
   background-color: #ee3643;
   width: 250px;
   height: 35px;
