@@ -268,12 +268,26 @@ header {
 .footer-menu {
   background-color: #32425c;
   width: 525px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
 }
 
 .footer-yellow-menu {
   background-color: #32425c;
   color: #ffd180;
   width: 550px;
+}
+
+.footer-menu ul, .footer-yellow-menu ul {
+  display: flex;
+}
+
+.footer-menu li, .footer-yellow-menu li {
+  list-style-type: none;
+  flex-basis: auto;
+  flex-grow: 1;
 }
 
 #second-footer {
