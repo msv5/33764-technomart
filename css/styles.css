@@ -250,3 +250,31 @@ header {
   align-items: center;
   justify-content: center;
 }
+
+
+#inner-footer {
+  background-color: #293449;
+}
+
+.social-networks ul {
+  display: flex;
+}
+
+.social-networks li {
+  list-style-type: none;
+  flex-basis: auto;
+  flex-grow: 1;
+}
+
+.feedback {
+  display: flex;
+  flex-direction: column;
+}
+
+.feedback span {
+  color: #ffd180;
+}
+
+.feedback a {
+color: white;
+}
