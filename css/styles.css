@@ -235,13 +235,11 @@ header {
   background: url('../img/red-button.svg') no-repeat;
 }
 
-#popular-manufacturers-list div {
+#popular-manufacturers-list .manufacturer {
   border: 1px solid lightgray;
   height: 145px;
   width: 220px;
-}
-
-#popular-manufacturers-list div img {
-  display: block;
-  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
