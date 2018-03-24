@@ -254,10 +254,13 @@ header {
 #inner-footer {
   background-color: #293449;
   font-size: 16px;
+  display: flex;
+  justify-content: space-around;
 }
 
 .social-networks ul {
   display: flex;
+  width: 140px;
 }
 
 .social-networks li {
