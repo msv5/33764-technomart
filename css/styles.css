@@ -133,7 +133,9 @@ header {
 }
 
 .footer-contacts {
-
+  display: flex;
+  align-items: left;
+  flex-direction: column;
 }
 
 .user-actions {
