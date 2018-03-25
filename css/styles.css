@@ -259,6 +259,7 @@ header {
 }
 
 #first-footer {
+  height: 190px;
   background-color: #32425c;
   font-size: 18px;
   display: flex;
@@ -295,6 +296,7 @@ header {
   font-size: 16px;
   display: flex;
   justify-content: space-around;
+  height: 100px;
 }
 
 .social-networks ul {
@@ -325,6 +327,17 @@ header {
   color: white;
   display: flex;
   flex-direction: column;
+}
+
+.technomart-footer-label {
+  height: 65px;
+  margin-left: 130px;
+  text-align: center;
+  width: 220px;
+  font-size: 24px;
+  margin-right: auto;
+  text-transform: uppercase;
+  color: white;
 }
 
 
