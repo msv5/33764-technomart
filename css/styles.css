@@ -425,6 +425,24 @@ header {
   list-style-type: none;
 }
 
+#service-menu li {
+  width: 240px;
+  height: 65px;
+  line-height: 65px;
+  font-size: 21px;
+  background-color: white;
+}
+
+#service-menu li:hover {
+  background-color: #32425c;
+  color: white;
+}
+
 #service-menu-block div, #service-menu-block section {
   width: 30%;
+}
+
+#image-truck {
+  width: 200px;
+  height: 150px;
 }
