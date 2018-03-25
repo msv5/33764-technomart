@@ -26,6 +26,10 @@ header {
   justify-content: space-around;
 }
 
+.main-actions img {
+  padding-right: 2px;
+}
+
 .technomart-label {
   margin-left: 130px;
   text-align: center;
