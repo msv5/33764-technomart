@@ -15,7 +15,7 @@
 <body>
 <header>
   <div id="main-actions-wrapper">
-    <div class="main-actions">
+    <div class="main-actions container">
       <a class="red-button technomart-label">техномарт</a>
       <div id="search"><img src="img/icon-search.svg" alt="Поиск">Поиск</div>
       <div id="bookmarks"><img src="img/icon-bookmark.svg" alt='Закладки'>Закладки: 0</div>
@@ -24,7 +24,7 @@
     </div>
   </div>
 
-  <div class="main-panel">
+  <div class="main-panel container">
 
     <div class="main-panel-inner">
       <div class="description">Интернет магазин строительных материалов и инструментов для ремонта</div>
@@ -36,14 +36,14 @@
       </section>
 
       <div class="user-actions">
-        <span class="white-button"><a id="login" href="#"><img src="img/icon-login.svg" alt="Войти"> Войти</a></span>
-        <span class="white-button"><a id='register' href="#">Регистрация</a></span>
+        <a class="white-button" id="login" href="#"><img src="img/icon-login.svg" alt="Войти"> Войти</a>
+        <a class="white-button" id='register' href="#">Регистрация</a>
       </div>
     </div>
 
   </div>
 
-  <nav class="main-menu">
+  <nav class="main-menu container">
     <ul>
       <li><a>Главная</a></li>
       <li><a>Компания</a></li>
@@ -58,96 +58,100 @@
 </header>
 
 <main>
-  <section class="promotion">
-    <h2 class="visually-hidden">Акции</h2>
-    <div id="item-1">
-      <span class="block-name">Материалы</span>
-      <span class="inner-block">на любой вкус</span>
-      <img src="img/icon-1.svg" alt="1">
-    </div>
-    <div id="item-2">
-      <span class="block-name">Инструмент</span>
-      <span class="inner-block">на все случаи</span>
-      <img src="img/icon-2.svg" alt="2">
-    </div>
-    <div id="item-3">
-      <span class="block-name">Техника</span>
-      <span class="inner-block">для стройки</span>
-      <img src="img/icon-3.svg" alt="3">
-    </div>
-    <div id="item-4">
-      <span class="block-name">Скидки 50%</span>
-      <span class="inner-block">на 350 товаров</span>
-      <img src="img/icon-4.svg" alt="4">
-    </div>
-    <div id="item-5">
-      <span class="block-name">Доставка</span>
-      <span class="inner-block">бесплатно</span>
-      <img src="img/icon-5.svg" alt="5">
-    </div>
-    <div id="item-6">
-      <span class="block-name">Дрели</span>
-      <span class="inner-block">Соседям на радость!</span>
-      <button>Открыть каталог</button>
-    </div>
-  </section>
+  <div class="container">
+    <section class="promotion">
+      <h2 class="visually-hidden">Акции</h2>
+      <div id="item-1">
+        <span class="block-name">Материалы</span>
+        <span class="inner-block">на любой вкус</span>
+        <img src="img/icon-1.svg" alt="1">
+      </div>
+      <div id="item-2">
+        <span class="block-name">Инструмент</span>
+        <span class="inner-block">на все случаи</span>
+        <img src="img/icon-2.svg" alt="2">
+      </div>
+      <div id="item-3">
+        <span class="block-name">Техника</span>
+        <span class="inner-block">для стройки</span>
+        <img src="img/icon-3.svg" alt="3">
+      </div>
+      <div id="item-4">
+        <span class="block-name">Скидки 50%</span>
+        <span class="inner-block">на 350 товаров</span>
+        <img src="img/icon-4.svg" alt="4">
+      </div>
+      <div id="item-5">
+        <span class="block-name">Доставка</span>
+        <span class="inner-block">бесплатно</span>
+        <img src="img/icon-5.svg" alt="5">
+      </div>
+      <div id="item-6">
+        <span class="block-name">Дрели</span>
+        <span class="inner-block">Соседям на радость!</span>
+        <button>Открыть каталог</button>
+      </div>
+    </section>
 
-  <div class="items">
-    <div id="popular-items">Популярные товары</div>
-    <div id="all-items">Все товары</div>
+    <div class="items">
+      <h2 id="popular-items">Популярные товары</h2>
+      <div id="all-items">
+        <a href="">Все товары</a>
+      </div>
+    </div>
+
+    <section id="popular-items-section">
+      <h2 class="visually-hidden">Популярные товары</h2>
+
+      <div id="popular-items-list">
+        <article>
+          <img src="img/drill1.png" alt="1">
+          <h3>Перфоратор BOSCH BFG 9000</h3>
+          <div class="old-price">32500 р.</div>
+          <div class="actual-price">
+            <span>25500 р.</span>
+          </div>
+        </article>
+        <article>
+          <img id="test-img" src="img/drill2.png" alt="2">
+          <h3>Перфоратор BOSCH BFG 3000</h3>
+          <div class="old-price">22500 р.</div>
+          <div class="actual-price">15500 р.</div>
+        </article>
+        <article>
+          <img src="img/drill3.png" alt="3">
+          <h3>Перфоратор BOSCH BFG 6000</h3>
+          <div class="old-price">30500 р.</div>
+          <div class="actual-price">25500 р.</div>
+        </article>
+        <article>
+          <img src="img/drill4.png" alt="4">
+          <h3>Перфоратор BOSCH BFG 2000</h3>
+          <div class="actual-price">12500 р.</div>
+        </article>
+      </div>
+    </section>
+
+    <div class="manufacturers">
+      <div id="popular-manufacturers">Популярные производители</div>
+      <div id="all-manufacturers">Все производители</div>
+    </div>
+
+    <section id="popular-manufacturers-section">
+      <h2 class="visually-hidden">Популярные производители</h2>
+
+      <div id="popular-manufacturers-list">
+        <div class="manufacturer"><img src="img/bosch.png" alt="bosch"></div>
+        <div class="manufacturer"><img src="img/Makita.png" alt="mackita"></div>
+        <div class="manufacturer"><img src="img/DeWALT.png" alt="dewalt"></div>
+        <div class="manufacturer"><img src="img/Интерскол.png" alt="интерскол"></div>
+        <div class="manufacturer"><img src="img/Hitachi.png" alt="hitachi"></div>
+        <div class="manufacturer"><img src="img/LG.png" alt="lg"></div>
+        <div class="manufacturer"><img src="img/AEG.png" alt="aeg"></div>
+        <div class="manufacturer"><img src="img/Metabo.png" alt="metabo"></div>
+      </div>
+    </section>
   </div>
-
-  <section id="popular-items-section">
-    <h2 class="visually-hidden">Популярные товары</h2>
-
-    <div id="popular-items-list">
-      <article>
-        <img src="img/drill1.png" alt="1">
-        <h3>Перфоратор BOSCH BFG 9000</h3>
-        <div class="old-price">32500 р.</div>
-        <div class="actual-price">
-          <span>25500 р.</span>
-        </div>
-      </article>
-      <article>
-        <img src="img/drill2.png" alt="2">
-        <h3>Перфоратор BOSCH BFG 3000</h3>
-        <div class="old-price">22500 р.</div>
-        <div class="actual-price">15500 р.</div>
-      </article>
-      <article>
-        <img src="img/drill3.png" alt="3">
-        <h3>Перфоратор BOSCH BFG 6000</h3>
-        <div class="old-price">30500 р.</div>
-        <div class="actual-price">25500 р.</div>
-      </article>
-      <article>
-        <img src="img/drill4.png" alt="4">
-        <h3>Перфоратор BOSCH BFG 2000</h3>
-        <div class="actual-price">12500 р.</div>
-      </article>
-    </div>
-  </section>
-
-  <div class="manufacturers">
-    <div id="popular-manufacturers">Популярные производители</div>
-    <div id="all-manufacturers">Все производители</div>
-  </div>
-
-  <section id="popular-manufacturers-section">
-    <h2 class="visually-hidden">Популярные производители</h2>
-
-    <div id="popular-manufacturers-list">
-      <div class="manufacturer"><img src="img/bosch.png" alt="bosch"></div>
-      <div class="manufacturer"><img src="img/Makita.png" alt="mackita"></div>
-      <div class="manufacturer"><img src="img/DeWALT.png" alt="dewalt"></div>
-      <div class="manufacturer"><img src="img/Интерскол.png" alt="интерскол"></div>
-      <div class="manufacturer"><img src="img/Hitachi.png" alt="hitachi"></div>
-      <div class="manufacturer"><img src="img/LG.png" alt="lg"></div>
-      <div class="manufacturer"><img src="img/AEG.png" alt="aeg"></div>
-      <div class="manufacturer"><img src="img/Metabo.png" alt="metabo"></div>
-    </div>
-  </section>
 
   <section>
     <h2>Сервисы</h2>
