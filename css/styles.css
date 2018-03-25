@@ -212,14 +212,14 @@ header {
   margin: 0;
 }
 
-.items a, .manufacturers a {
+.items a, .manufacturers a, #company-details-button a, #write-us-button a {
   text-decoration: none;
   height: 35px;
   line-height: 35px;
   color: white;
 }
 
-#all-items, #all-manufacturers {
+#all-items, #all-manufacturers, #company-details-button, #write-us-button {
   background-color: #ee3643;
   width: 250px;
   height: 35px;
@@ -301,7 +301,7 @@ header {
 #about-company .about-company-block {
   display: flex;
   justify-content: space-between;
-  width: inherit;
+  padding-bottom: 10px;
 }
 
 #about-company .company-description {
