@@ -29,7 +29,6 @@ header {
 }
 
 .technomart-label {
-  margin-left: 130px;
   text-align: center;
   width: 220px;
   height: 100%;
@@ -145,6 +144,8 @@ header {
 
 .user-actions {
   width: 280px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .phone {
@@ -315,11 +316,27 @@ header {
 }
 
 #first-footer {
-  height: 190px;
-  background-color: #32425c;
   font-size: 18px;
   display: flex;
   flex-wrap: wrap;
+}
+
+#first-footer-wrapper {
+  background-color: #32425c;
+  height: 190px;
+  display: flex;
+}
+
+#second-footer {
+  font-size: 16px;
+  display: flex;
+  justify-content: space-around;
+}
+
+#second-footer-wrapper {
+  background-color: #293449;
+  height: 100px;
+  display: flex;
 }
 
 .footer-menu {
@@ -345,14 +362,6 @@ header {
   list-style-type: none;
   flex-basis: auto;
   flex-grow: 1;
-}
-
-#second-footer {
-  background-color: #293449;
-  font-size: 16px;
-  display: flex;
-  justify-content: space-around;
-  height: 100px;
 }
 
 .social-networks ul {
@@ -389,7 +398,6 @@ header {
 .technomart-footer-label {
   height: 65px;
   line-height: 65px;
-  margin-left: 130px;
   text-align: center;
   width: 220px;
   font-size: 24px;

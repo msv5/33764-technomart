@@ -153,7 +153,7 @@
     </section>
   </div>
 
-  <section>
+  <section class="container">
     <h2>Сервисы</h2>
     <p>
       Хороший интернет-магазин отличается от плохого не только ценами!
@@ -178,10 +178,10 @@
     </section>
 
   </section>
-  <section id="about-company">
+  <section id="about-company container">
     <h2 class="visually-hidden">Услуги</h2>
     <div class="about-company-block">
-      <section class="company-description">
+      <section class="company-description container">
         <h2>Компания "Техномарт"</h2>
         <p>
           Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и строительства не оставит
@@ -200,7 +200,7 @@
         <button class="red-button">Подробнее о компании</button>
       </section>
 
-      <section class="company-contacts">
+      <section class="company-contacts container">
         <h2>Контакты</h2>
         <img src="img/map-preview.png" alt="Карта">
         <button class="red-button">Заблудились? Напишите нам!</button>
@@ -210,52 +210,56 @@
 </main>
 
 <footer>
-  <div id="first-footer">
-    <a class="red-button technomart-footer-label">Техномарт</a>
-    <nav class="footer-yellow-menu">
-      <ul>
-        <li><a>Компания</a></li>
-        <li><a>Новости</a></li>
-        <li><a>Каталог</a></li>
-        <li><a>Доставка</a></li>
-        <li><a>Контакты</a></li>
-      </ul>
-    </nav>
+  <div id="first-footer-wrapper">
+    <div id="first-footer" class="container">
+      <a class="red-button technomart-footer-label">Техномарт</a>
+      <nav class="footer-yellow-menu">
+        <ul>
+          <li><a>Компания</a></li>
+          <li><a>Новости</a></li>
+          <li><a>Каталог</a></li>
+          <li><a>Доставка</a></li>
+          <li><a>Контакты</a></li>
+        </ul>
+      </nav>
+      <section class="footer-contacts">
+        <h2 class="visually-hidden">Контакты</h2>
+        <address>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19\8</address>
+        <a href="tel:+78125550555"><img src="img/icon-phone.svg" alt="phone"> +7 (812) 555-05-55</a>
+      </section>
 
-    <section class="footer-contacts">
-      <h2 class="visually-hidden">Контакты</h2>
-      <address>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19\8</address>
-      <a href="tel:+78125550555"><img src="img/icon-phone.svg" alt="phone"> +7 (812) 555-05-55</a>
-    </section>
-
-    <ul class="footer-menu">
-      <li><a>Материалы</a></li>
-      <li><a>Техника</a></li>
-      <li><a>Инструмент</a></li>
-      <li><a>Спецпредложения</a></li>
-    </ul>
-  </div>
-  <div id="second-footer">
-    <p class="copyright">
-      <span>&copy; 2010-2017 Компания "Техномарт"</span>
-      <span>Все права защищены</span>
-    </p>
-    <div class="social-networks">
-      <ul>
-        <li><a href="http://vk.com"><img src="img/icon-vk.svg" alt="vk"></a></li>
-        <li><a href="http://facebook.com"><img src="img/icon-fb.svg" alt="fb"></a></li>
-        <li><a href="http://instagram.com"><img src="img/icon-insta.svg" alt="instagram"></a></li>
+      <ul class="footer-menu">
+        <li><a>Материалы</a></li>
+        <li><a>Техника</a></li>
+        <li><a>Инструмент</a></li>
+        <li><a>Спецпредложения</a></li>
       </ul>
     </div>
-    <p class="feedback">
-      <span>Обратная связь:</span>
-      <a>mail@htmlacademy.ru</a>
-    </p>
+  </div>
 
-    <p class="about">
-      <span>Разработано -</span>
-      <span><a href="http://htmlacademy.ru">htmlacademy.ru</a></span>
-    </p>
+  <div id="second-footer-wrapper">
+    <div id="second-footer" class="container">
+      <p class="copyright">
+        <span>&copy; 2010-2017 Компания "Техномарт"</span>
+        <span>Все права защищены</span>
+      </p>
+      <div class="social-networks">
+        <ul>
+          <li><a href="http://vk.com"><img src="img/icon-vk.svg" alt="vk"></a></li>
+          <li><a href="http://facebook.com"><img src="img/icon-fb.svg" alt="fb"></a></li>
+          <li><a href="http://instagram.com"><img src="img/icon-insta.svg" alt="instagram"></a></li>
+        </ul>
+      </div>
+      <p class="feedback">
+        <span>Обратная связь:</span>
+        <a>mail@htmlacademy.ru</a>
+      </p>
+
+      <p class="about">
+        <span>Разработано -</span>
+        <span><a href="http://htmlacademy.ru">htmlacademy.ru</a></span>
+      </p>
+    </div>
   </div>
 </footer>
 </body>
