@@ -408,9 +408,23 @@ header {
 }
 
 #service-wrapper {
-background-color: #f5f8fa;
+  background-color: #f5f8fa;
 }
 
-#service {
+#service-menu-block {
+  display: flex;
+  justify-content: space-between;
+}
 
+#service-description {
+  display: flex;
+  justify-content: space-between;
+}
+
+#service-menu {
+  list-style-type: none;
+}
+
+#service-menu-block div, #service-menu-block section {
+  width: 30%;
 }
