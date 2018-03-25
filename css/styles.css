@@ -282,6 +282,10 @@ header {
   width: 50%;
 }
 
+#about-company .offer {
+  list-style-type: none;
+}
+
 #first-footer {
   height: 190px;
   background-color: #32425c;
