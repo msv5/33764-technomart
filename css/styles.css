@@ -128,6 +128,10 @@ header {
   font-style: normal;
 }
 
+.footer-contacts {
+
+}
+
 .user-actions {
   width: 280px;
 }
@@ -331,6 +335,7 @@ header {
 
 .technomart-footer-label {
   height: 65px;
+  line-height: 65px;
   margin-left: 130px;
   text-align: center;
   width: 220px;
