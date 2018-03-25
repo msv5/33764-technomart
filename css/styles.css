@@ -309,6 +309,7 @@ header {
 
 .social-networks ul {
   display: flex;
+  align-items: center;
   width: 140px;
 }
 
