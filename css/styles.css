@@ -26,6 +26,7 @@ header {
 
 .main-actions img {
   padding-right: 2px;
+  vertical-align: middle;
 }
 
 .technomart-label {
@@ -78,7 +79,6 @@ header {
 }
 
 .main-panel {
-  width: 940px;
   height: 160px;
   vertical-align: middle;
 }
