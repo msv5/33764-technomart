@@ -216,6 +216,7 @@ header {
   text-decoration: none;
   height: 35px;
   line-height: 35px;
+  color: white;
 }
 
 #all-items, #all-manufacturers {
