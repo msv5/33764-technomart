@@ -80,6 +80,23 @@ header {
   color: #ffffff;
 }
 
+#promotion-row-1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+#promotion-row-2 {
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-around;
+}
+
+#items-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
 .main-panel {
   height: 45%;
   display: flex;
@@ -183,22 +200,32 @@ header {
 
 #item-1 {
   background-color: #ffbf47;
+  width: 300px;
+  height: 121px;
 }
 
 #item-2 {
   background-color: #3bbce3;
+  width: 300px;
+  height: 121px;
 }
 
 #item-3 {
   background-color: #dc91d8;
+  width: 300px;
+  height: 121px;
 }
 
 #item-4 {
   background-color: #8ed78f;
+  width: 300px;
+  height: 121px;
 }
 
 #item-5 {
   background-color: #ffc047;
+  width: 300px;
+  height: 121px;
 }
 
 .inner-block {
