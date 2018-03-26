@@ -92,10 +92,6 @@ header {
   width: 100%;
 }
 
-.main-panel-inner div, .main-panel-inner section {
-  margin: auto;
-}
-
 .red-button {
   background-color: #ee3643;
 }
@@ -132,7 +128,7 @@ header {
   color: red;
   font-style: italic;
   width: 200px;
-
+  margin-left: 70px;
 }
 
 .contacts {
