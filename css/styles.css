@@ -131,6 +131,10 @@ header {
   margin-left: 70px;
 }
 
+#register {
+  margin-left: 8px;
+}
+
 .contacts {
   width: 270px;
 }
