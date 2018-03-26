@@ -9,6 +9,8 @@ body {
 header {
   background-color: #f4f7f9;
   height: 280px;
+  display: flex;
+  flex-direction: column;
 }
 
 #main-actions-wrapper {
@@ -79,7 +81,7 @@ header {
 }
 
 .main-panel {
-  height: 160px;
+  height: 45%;
   display: flex;
   align-items: center;
 }
