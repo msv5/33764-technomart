@@ -335,6 +335,13 @@ header {
   background-color: #32425c;
   height: 190px;
   display: flex;
+  width: 100%;
+}
+
+#first-line, #second-line {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
 }
 
 #second-footer {
