@@ -218,6 +218,26 @@ header {
 
 }
 
+.item-1 .inner-block {
+  background-color: #e5ac40;
+}
+
+.item-2 .inner-block {
+  background-color: #35a9cc;
+}
+
+.item-3 .inner-block {
+  background-color: #c682c2;
+}
+
+.item-4 .inner-block {
+  background-color: #80c180;
+}
+
+.item-5 .inner-block {
+  background-color: #e5ac40;
+}
+
 .inner-block {
   color: white;
   font-size: 14px;
