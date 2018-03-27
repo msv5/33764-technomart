@@ -198,32 +198,36 @@ header {
   margin-top: 5px;
 }
 
-#item-1 {
-  background-color: #ffbf47;
+.promotion div[class^="item-"], div[class*=" item-"] {
+  color: red;
+}
+
+.item-1 {
+  background: #ffbf47 url('../img/icon-1.svg') no-repeat right 30px bottom 30px;
   width: 300px;
   height: 121px;
 }
 
-#item-2 {
-  background-color: #3bbce3;
+.item-2 {
+  background: #3bbce3 url('../img/icon-2.svg') no-repeat right 30px bottom 30px;
   width: 300px;
   height: 121px;
 }
 
-#item-3 {
-  background-color: #dc91d8;
+.item-3 {
+  background: #dc91d8 url('../img/icon-3.svg') no-repeat right 30px bottom 30px;
   width: 300px;
   height: 121px;
 }
 
-#item-4 {
-  background-color: #8ed78f;
+.item-4 {
+  background: #8ed78f url('../img/icon-4.svg') no-repeat right 30px bottom 30px;
   width: 300px;
   height: 121px;
 }
 
-#item-5 {
-  background-color: #ffc047;
+.item-5 {
+  background: #ffc047 url('../img/icon-5.svg') no-repeat right 30px bottom 30px;
   width: 300px;
   height: 121px;
 }
