@@ -73,7 +73,6 @@ header {
 
 .main-menu {
   height: 60px;
-  line-height: 60px;
   font-size: 17px;
   width: 940px;
   background-color: #293449;
@@ -88,7 +87,7 @@ header {
 #promotion-row-2 {
   display: flex;
   margin: 0 auto;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 #items-block {
