@@ -198,69 +198,43 @@ header {
   margin-top: 5px;
 }
 
-.promotion div[class^="item-"], div[class*=" item-"] {
-  color: red;
-}
-
 .item-1 {
   background: #ffbf47 url('../img/icon-1.svg') no-repeat right 30px bottom 30px;
-  width: 300px;
-  height: 121px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: baseline;
-}
-
-.item-1 span, .item-2 span,
-.item-3 span, .item-4 span,
-.item-5 span {
-  margin-left: 22px;
 }
 
 .item-2 {
   background: #3bbce3 url('../img/icon-2.svg') no-repeat right 30px bottom 30px;
-  width: 300px;
-  height: 121px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: baseline;
 }
 
 .item-3 {
   background: #dc91d8 url('../img/icon-3.svg') no-repeat right 30px bottom 30px;
-  width: 300px;
-  height: 121px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: baseline;
 }
 
 .item-4 {
   background: #8ed78f url('../img/icon-4.svg') no-repeat right 30px bottom 30px;
-  width: 300px;
-  height: 121px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: baseline;
 }
 
 .item-5 {
   background: #ffc047 url('../img/icon-5.svg') no-repeat right 30px bottom 30px;
-  width: 300px;
-  height: 121px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: baseline;
+
 }
 
 .inner-block {
   color: white;
   font-size: 14px;
+}
+
+#promotion-row-1 div[class^="item-"], #promotion-row-1 div[class*=" item-"] {
+  width: 300px;
+  height: 121px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.promotion div[class^="item-"] span, .promotion div[class*=" item-"] span {
+  margin-left: 22px;
 }
 
 .block-name {
