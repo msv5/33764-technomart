@@ -222,6 +222,11 @@ header {
 .inner-block {
   color: white;
   font-size: 14px;
+  width: 134px;
+  height: 36px;
+  line-height: 36px;
+  background-color: black;
+  text-align: center;
 }
 
 #promotion-row-1 div[class^="item-"], #promotion-row-1 div[class*=" item-"] {
