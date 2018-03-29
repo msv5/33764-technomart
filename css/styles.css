@@ -39,6 +39,7 @@ header {
   margin-right: auto;
   text-transform: uppercase;
   color: white;
+  padding-bottom: 5px;
 }
 
 #search {
