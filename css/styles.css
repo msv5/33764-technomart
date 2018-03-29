@@ -247,6 +247,7 @@ header {
   line-height: 36px;
   background-color: black;
   text-align: center;
+  margin-top: 10px;
 }
 
 #promotion-row-1 div[class^="item-"], #promotion-row-1 div[class*=" item-"],
