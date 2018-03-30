@@ -275,6 +275,11 @@ header {
   margin-left: 22px;
 }
 
+.promotion {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
 .block-name {
   color: white;
   font-size: 24px;
@@ -329,7 +334,7 @@ header {
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-between;
-  height: 350px;
+  margin-bottom: 10px;
 }
 
 #popular-items-list article {
