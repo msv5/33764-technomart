@@ -323,21 +323,21 @@ header {
   font-size: 30px;
 }
 
-#popular-manufacturers-list {
+.popular-manufacturers-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   height: 350px;
 }
 
-#popular-items-list {
+.popular-items-list {
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-between;
   margin-bottom: 10px;
 }
 
-#popular-items-list article {
+.popular-items-list article {
   height: 318px;
   width: 220px;
   border: 1px solid lightgray;
@@ -346,19 +346,19 @@ header {
   justify-content: baseline;
 }
 
-#popular-items-list h3 {
+.popular-items-list h3 {
   font-size: 18px;
   text-align: center;
 }
 
-#popular-items-list .old-price {
+.popular-items-list .old-price {
   color: lightgray;
   font-size: 17px;
   text-decoration: line-through;
   text-align: center;
 }
 
-#popular-items-list .actual-price {
+.popular-items-list .actual-price {
   font-size: 17px;
   text-align: center;
   line-height: 30px;
@@ -375,11 +375,11 @@ header {
   margin: 0 auto;
 }
 
-#popular-items-list .actual-price span {
+.popular-items-list .actual-price span {
   color: #fff;
 }
 
-#popular-manufacturers-list .manufacturer {
+.popular-manufacturers-list .manufacturer {
   border: 1px solid lightgray;
   height: 145px;
   width: 220px;
