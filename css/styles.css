@@ -318,6 +318,16 @@ header {
   bottom: 0;
 }
 
+#service h2 {
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+#delivery h2 {
+  text-transform: uppercase;
+  font-size: 36px;
+}
+
 #popular-items, #popular-manufacturers {
   text-transform: uppercase;
   font-size: 30px;
