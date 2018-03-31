@@ -13,7 +13,7 @@ header {
   flex-direction: column;
 }
 
-#main-actions-wrapper {
+.main-actions-wrapper {
   height: 42px;
   line-height: 42px;
   background-color: #293449;
@@ -80,13 +80,13 @@ header {
   color: #ffffff;
 }
 
-#promotion-row-1 {
+.promotion-row-1 {
   display: flex;
   justify-content: space-between;
   margin-bottom: 20px;
 }
 
-#promotion-row-2 {
+.promotion-row-2 {
   display: flex;
   margin: 0 auto;
   justify-content: space-between;
@@ -251,8 +251,8 @@ header {
   margin-top: 10px;
 }
 
-#promotion-row-1 div[class^="item-"], #promotion-row-1 div[class*=" item-"],
-#promotion-row-2 .item-4, .item-5 {
+.promotion-row-1 div[class^="item-"], .promotion-row-1 div[class*=" item-"],
+.promotion-row-2 .item-4, .item-5 {
   width: 300px;
   height: 123px;
   display: flex;
