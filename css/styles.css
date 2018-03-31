@@ -327,7 +327,11 @@ header {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  height: 350px;
+  height: 100%;
+}
+
+#popular-manufacturers-section {
+  height: 330px;
 }
 
 .popular-items-list {
