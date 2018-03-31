@@ -406,22 +406,22 @@ header {
   justify-content: center;
 }
 
-#about-company .about-company-block {
+.about-company .about-company-block {
   display: flex;
   justify-content: space-between;
   padding-bottom: 10px;
 }
 
-#about-company .company-description {
+.about-company .company-description {
   width: 40%;
 }
 
-#about-company .company-contacts {
+.about-company .company-contacts {
   width: 40%;
   position: relative;
 }
 
-#about-company .offer {
+.about-company .offer {
   list-style-type: none;
 }
 
