@@ -62,10 +62,6 @@ header {
   margin-left: auto;
 }
 
-.main-menu {
-  display: flex;
-}
-
 .main-menu li {
   list-style-type: none;
   flex-basis: auto;
@@ -73,10 +69,10 @@ header {
 }
 
 .main-menu {
+  display: flex;
   height: 60px;
   line-height: 60px;
   font-size: 17px;
-  width: 940px;
   background-color: #293449;
   color: #ffffff;
 }
