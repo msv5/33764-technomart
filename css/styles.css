@@ -328,6 +328,10 @@ header {
   font-size: 36px;
 }
 
+.offer li {
+  padding: 5px;
+}
+
 #popular-items, #popular-manufacturers {
   text-transform: uppercase;
   font-size: 30px;
