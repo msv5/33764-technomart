@@ -150,6 +150,7 @@ header {
   display: flex;
   align-items: left;
   flex-direction: column;
+  width: 50%;
 }
 
 .user-actions {
@@ -441,7 +442,7 @@ header {
 
 .footer-menu {
   background-color: #32425c;
-  width: 525px;
+  width: 50%;
   display: flex;
   justify-content: space-around;
   align-items: center;
