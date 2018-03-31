@@ -398,12 +398,15 @@ header {
   padding-bottom: 10px;
 }
 
-.about-company .company-description {
-  width: 40%;
+.company-description {
+  margin: 0;
+  float: left;
+  width: 50%;
 }
 
-.about-company .company-contacts {
-  width: 40%;
+
+.company-contacts {
+  width: 50%;
   position: relative;
 }
 
