@@ -398,15 +398,19 @@ header {
   padding-bottom: 10px;
 }
 
+#map-preview {
+  width: 100%;
+}
+
 .company-description {
   margin: 0;
   float: left;
-  width: 50%;
+  width: 60%;
 }
 
-
 .company-contacts {
-  width: 50%;
+  padding-left: 60px;
+  width: 40%;
   position: relative;
 }
 
