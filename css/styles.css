@@ -42,24 +42,9 @@ header {
   padding-bottom: 5px;
 }
 
-#search {
+.main-actions div {
   font-size: 17px;
   margin-right: auto;
-}
-
-#bookmarks {
-  font-size: 17px;
-  margin-left: auto;
-}
-
-#shopping-cart {
-  font-size: 17px;
-  margin-left: auto;
-}
-
-#make-order {
-  font-size: 17px;
-  margin-left: auto;
 }
 
 .main-menu li {
