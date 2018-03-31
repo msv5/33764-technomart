@@ -74,7 +74,7 @@ header {
   justify-content: space-between;
 }
 
-#items-block {
+.items-block {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -286,7 +286,7 @@ header {
   color: white;
 }
 
-#all-items, #all-manufacturers, #company-details-button, #write-us-button {
+.all-items, .all-manufacturers, #company-details-button, #write-us-button {
   background-color: #ee3643;
   width: 250px;
   height: 35px;
@@ -314,7 +314,7 @@ header {
   padding: 5px;
 }
 
-#popular-items, #popular-manufacturers {
+.popular-items, .popular-manufacturers {
   text-transform: uppercase;
   font-size: 30px;
 }
@@ -326,7 +326,7 @@ header {
   height: 100%;
 }
 
-#popular-manufacturers-section {
+.popular-manufacturers-section {
   height: 330px;
 }
 
