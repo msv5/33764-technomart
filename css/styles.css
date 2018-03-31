@@ -429,7 +429,7 @@ header {
 #second-footer {
   font-size: 16px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 #second-footer-wrapper {
