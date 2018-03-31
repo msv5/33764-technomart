@@ -459,6 +459,9 @@ header {
   background-color: #32425c;
   color: #ffd180;
   width: 550px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
 }
 
 .footer-menu ul, .footer-yellow-menu ul {
