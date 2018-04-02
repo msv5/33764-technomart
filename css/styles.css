@@ -430,33 +430,33 @@ header {
   list-style-type: none;
 }
 
-#first-footer {
+.first-footer {
   font-size: 18px;
   display: flex;
   flex-wrap: wrap;
 }
 
-#first-footer-wrapper {
+.first-footer-wrapper {
   background-color: #32425c;
   height: 190px;
   display: flex;
   width: 100%;
 }
 
-#first-line, #second-line {
+.first-line, .second-line {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
   width: 100%;
 }
 
-#second-footer {
+.second-footer {
   font-size: 16px;
   display: flex;
   justify-content: space-between;
 }
 
-#second-footer-wrapper {
+.second-footer-wrapper {
   background-color: #293449;
   height: 100px;
   display: flex;
