@@ -462,32 +462,32 @@ header {
   display: flex;
 }
 
-.footer-menu {
+.footer-yellow-menu {
   background-color: #32425c;
   width: 50%;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  color: white;
+  color: #ffd180;
   margin: 0;
   padding: 0;
   text-align: center;
 }
 
-.footer-yellow-menu {
+.footer-white-menu {
   background-color: #32425c;
-  color: #ffd180;
+  color: white;
   width: 550px;
   margin: 0;
   padding: 0;
   text-align: center;
 }
 
-.footer-menu ul, .footer-yellow-menu ul {
+.footer-yellow-menu ul, .footer-white-menu ul {
   display: flex;
 }
 
-.footer-menu li, .footer-yellow-menu li {
+.footer-yellow-menu li, .footer-white-menu li {
   list-style-type: none;
   flex-basis: auto;
   flex-grow: 1;
