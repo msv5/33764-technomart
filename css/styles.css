@@ -27,7 +27,7 @@ header {
 
 .main-actions img {
   padding-right: 2px;
-  vertical-align: middle;
+  vertical-align: -2px;
 }
 
 .technomart-label {
@@ -115,7 +115,7 @@ header {
 .green-button {
   text-align: center;
   width: 150px;
-  height: 40px;
+  height: 100%;
   background-color: #63a63e;
   color: #ffffff;
 }
@@ -563,6 +563,7 @@ header {
   line-height: 65px;
   font-size: 21px;
   background-color: white;
+  padding-left: 15px;
 }
 
 .service-menu li:hover {
