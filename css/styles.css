@@ -543,21 +543,21 @@ header {
   padding-bottom: 100px;
 }
 
-#service-menu-block {
+.service-menu-block {
   display: flex;
   justify-content: space-between;
 }
 
-#service-description {
+.service-description {
   display: flex;
   justify-content: space-between;
 }
 
-#service-menu {
+.service-menu {
   list-style-type: none;
 }
 
-#service-menu li {
+.service-menu li {
   width: 240px;
   height: 65px;
   line-height: 65px;
@@ -565,12 +565,12 @@ header {
   background-color: white;
 }
 
-#service-menu li:hover {
+.service-menu li:hover {
   background-color: #32425c;
   color: white;
 }
 
-#service-menu-block div, #service-menu-block section {
+.service-menu-block div, .service-menu-block section {
   width: 30%;
 }
 
