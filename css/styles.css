@@ -563,13 +563,14 @@ header {
   height: 65px;
   line-height: 65px;
   font-size: 21px;
-  background-color: white;
+  background-color: #32425c;
   padding-left: 15px;
+  color: white;
 }
 
 .service-menu li:hover {
-  background-color: #32425c;
-  color: white;
+  background-color: white;
+  color: black;
 }
 
 .service-menu-block div, .service-menu-block section {
