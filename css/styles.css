@@ -555,6 +555,11 @@ a.white-button:visited {
   text-decoration: underline;
 }
 
+.feedback a:visited, .about a:visited {
+  text-decoration: none;
+  color: #803547;
+}
+
 .copyright {
   color: white;
   display: flex;
