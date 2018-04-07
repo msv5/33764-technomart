@@ -36,7 +36,7 @@ header {
   padding-right: 17px;
 }
 
-.main-actions div:hover {
+.main-actions div:not(.green-button):hover {
   background-color: #212a3a;
   cursor: pointer;
 }
