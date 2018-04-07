@@ -30,6 +30,17 @@ header {
   vertical-align: -2px;
 }
 
+.main-actions div {
+  height: 100%;
+  padding-left: 17px;
+  padding-right: 17px;
+}
+
+.main-actions div:hover {
+  background-color: #212a3a;
+  cursor: pointer;
+}
+
 .technomart-label {
   text-align: center;
   width: 220px;
