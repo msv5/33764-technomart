@@ -66,6 +66,7 @@ header {
 
 .main-menu li:hover {
   background-color: #293449;
+  cursor: pointer;
 }
 
 .main-menu {
@@ -265,6 +266,10 @@ a.white-button:visited {
   line-height: 36px;
   text-align: center;
   margin-top: 10px;
+}
+
+.inner-block:hover {
+  cursor: pointer;
 }
 
 .promotion-row-1 div[class^="item-"], .promotion-row-1 div[class*=" item-"],
