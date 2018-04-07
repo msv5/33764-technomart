@@ -249,26 +249,6 @@ a.white-button:visited {
 
 }
 
-.item-1 .inner-block {
-  background-color: #e5ac40;
-}
-
-.item-2 .inner-block {
-  background-color: #35a9cc;
-}
-
-.item-3 .inner-block {
-  background-color: #c682c2;
-}
-
-.item-4 .inner-block {
-  background-color: #80c180;
-}
-
-.item-5 .inner-block {
-  background-color: #e5ac40;
-}
-
 .inner-block {
   color: white;
   font-size: 14px;
@@ -277,6 +257,7 @@ a.white-button:visited {
   line-height: 36px;
   text-align: center;
   margin-top: 10px;
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
 .inner-block:hover {
