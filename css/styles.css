@@ -525,6 +525,20 @@ a.white-button:visited {
   flex-grow: 1;
 }
 
+.footer-yellow-menu li:hover, .footer-white-menu li:hover {
+  text-decoration: underline;
+}
+
+.footer-yellow-menu li:visited {
+  text-decoration: none;
+  color: #a6906e;
+}
+
+.footer-white-menu li:visited {
+  text-decoration: none;
+  color: #a4abb4;
+}
+
 .social-networks ul {
   display: flex;
   align-items: center;
