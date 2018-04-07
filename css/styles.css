@@ -543,11 +543,11 @@ a.white-button:visited {
 }
 
 .feedback span, .about span {
-  color: #ffd180;
+  color: white;
 }
 
 .feedback a, .about a {
-  color: white;
+  color: #ffd180;
 }
 
 .copyright {
