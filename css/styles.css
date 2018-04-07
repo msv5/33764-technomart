@@ -34,7 +34,6 @@ header {
   height: 100%;
   padding-left: 17px;
   padding-right: 17px;
-  text-align: center;
 }
 
 .main-actions div:not(.green-button):hover {
