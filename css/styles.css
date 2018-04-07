@@ -333,6 +333,14 @@ a.white-button:visited {
   border-radius: 3px;
 }
 
+.all-items:hover, .all-manufacturers:hover, #company-details-button:hover, #write-us-button:hover {
+  background-color: #ca2c37;
+}
+
+.all-items:visited, .all-manufacturers:visited, #company-details-button:visited, #write-us-button:visited {
+  background-color: #ba2732;
+}
+
 #write-us-button {
   position: absolute;
   bottom: 0;
