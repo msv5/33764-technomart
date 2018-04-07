@@ -389,6 +389,10 @@ a.white-button:visited {
   justify-content: baseline;
 }
 
+.popular-items-list article:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
 .popular-items-list h3 {
   font-size: 18px;
   text-align: center;
