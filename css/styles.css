@@ -330,6 +330,7 @@ a.white-button:visited {
 
 .all-items:hover, .all-manufacturers:hover, #company-details-button:hover, #write-us-button:hover {
   background-color: #ca2c37;
+  cursor: pointer;
 }
 
 .all-items:visited, .all-manufacturers:visited, #company-details-button:visited, #write-us-button:visited {
