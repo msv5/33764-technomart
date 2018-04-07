@@ -169,6 +169,7 @@ a.white-button:visited {
 
 .container {
   width: 940px;
+  min-width: 940px;
   margin: 0 auto;
 }
 
