@@ -120,7 +120,6 @@ header {
   background-color: #ca2c37;
 }
 
-
 .green-button {
   text-align: center;
   width: 150px;
@@ -155,7 +154,6 @@ a.white-button:hover {
 a.white-button:visited {
   color: #dadada;
 }
-
 
 .container {
   width: 940px;
@@ -431,6 +429,11 @@ a.white-button:visited {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.popular-manufacturers-list .manufacturer:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  padding: 1px;
 }
 
 .about-company .about-company-block {
