@@ -548,6 +548,11 @@ a.white-button:visited {
 
 .feedback a, .about a {
   color: #ffd180;
+  text-decoration: none;
+}
+
+.feedback a:hover, .about a:hover {
+  text-decoration: underline;
 }
 
 .copyright {
