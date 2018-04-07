@@ -152,7 +152,7 @@ a.white-button:hover {
 }
 
 a.white-button:visited {
-  color: #dadada;
+  opacity: 0.5;
 }
 
 .container {
@@ -335,7 +335,7 @@ a.white-button:visited {
 }
 
 .all-items:visited, .all-manufacturers:visited, #company-details-button:visited, #write-us-button:visited {
-  background-color: #ba2732;
+  opacity: 0.5;
 }
 
 #write-us-button {
@@ -535,7 +535,7 @@ a.white-button:visited {
 
 .footer-yellow-menu li:visited {
   text-decoration: none;
-  color: #a6906e;
+  opacity: 0.5;
 }
 
 .footer-white-menu li:visited {
@@ -575,7 +575,7 @@ a.white-button:visited {
 
 .feedback a:visited, .about a:visited {
   text-decoration: none;
-  color: #803547;
+  opacity: 0.5;
 }
 
 .copyright {
