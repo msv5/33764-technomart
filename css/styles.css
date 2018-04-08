@@ -337,7 +337,7 @@ a.white-button:visited {
   opacity: 0.5;
 }
 
-#write-us-button {
+#write-us-button, #company-details-button {
   position: absolute;
   bottom: 0;
 }
@@ -442,7 +442,9 @@ a.white-button:visited {
 .about-company .about-company-block {
   display: flex;
   justify-content: space-between;
-  padding-bottom: 10px;
+  height:370px;
+  margin-bottom: 50px;
+  margin-top: 50px;
 }
 
 #map-preview {
@@ -453,6 +455,7 @@ a.white-button:visited {
   margin: 0;
   float: left;
   width: 60%;
+  position: relative;
 }
 
 .company-contacts {
