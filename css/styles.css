@@ -2,6 +2,10 @@
   display: none;
 }
 
+.visually-available {
+  display: block;
+}
+
 body {
   font-family: Cuprum, serif;
 }
@@ -50,6 +54,12 @@ header {
   color: white;
   padding-bottom: 5px;
   margin-right: 20px;
+}
+
+#searchInput {
+  height: 38px;
+  width: 184px;
+  padding: 0;
 }
 
 #bookmarks {
