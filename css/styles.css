@@ -543,6 +543,7 @@ a.white-button:visited {
 
 .footer-yellow-menu li:hover, .footer-white-menu li:hover {
   text-decoration: underline;
+  cursor:pointer;
 }
 
 .footer-yellow-menu li:visited {
