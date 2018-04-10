@@ -21,4 +21,5 @@ function onSearchButtonClick() {
 
   searchInput.classList.remove('visually-hidden');
   searchInput.classList.add('visually-available');
+  searchInput.focus();
 }
